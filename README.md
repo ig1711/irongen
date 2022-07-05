@@ -38,3 +38,24 @@ windowrule=float,floating-term
 # the -w flag is for window size
 bind=SUPER,D,exec,foot -w 1366x768 -a floating-term $HOME/runfzf.sh
 ```
+
+#### With Sway window manager
+
+- Create a bash script like this `$HOME/runfzf.sh`
+
+```sh
+#!/bin/bash
+exec swaymsg -q exec $(irongen)
+```
+
+- Edit the `sway/config` file to include these
+
+```sh
+# add a window rule to open the terminal in floating mode
+for_window [app_id="floating-term"] floating enable
+
+# add a keybind to call the script created previously, using a terminal. I'm using foot term here
+# the -a flag for foot term allows to set an `app-id`
+# the -w flag is for window size
+bindsym $mod+d exec foot -w 1366x768 -a floating-term $HOME/runfzf.sh
+```
