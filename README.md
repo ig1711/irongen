@@ -10,7 +10,7 @@ Install rust and cargo then use the command
 cargo install --git https://github.com/ig1711/irongen.git
 ```
 
-This will install `irongen` in `$CAGRO_HOME` (by default `$HOME/.cargo`). Include this installtion directory in your `$PATH`
+This will install `irongen` in `$CAGRO_HOME/bin` (by default `$HOME/.cargo/bin`). Include this installtion directory in your `$PATH`
 
 ## Usage
 
