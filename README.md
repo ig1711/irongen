@@ -4,17 +4,13 @@ Searches `XDG_DATA_DIRS/aaplications` and `XDG_DATA_HOME/applications` and lets 
 
 ## Installation
 
-Install rust and cargo then if you want to install `irongen` in your `root`'s `bin` directory (requires root or sudo), use the command
-
-```sh
-cargo install --root --git https://github.com/ig1711/irongen.git
-```
-
-Or if you want to install it in `$CAGRO_HOME` (by default `$HOME/.cargo`), use
+Install rust and cargo then use the command
 
 ```sh
 cargo install --git https://github.com/ig1711/irongen.git
 ```
+
+This will install `irongen` in `$CAGRO_HOME` (by default `$HOME/.cargo`). Include this installtion directory in your `$PATH`
 
 ## Usage
 
