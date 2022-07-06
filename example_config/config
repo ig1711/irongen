@@ -68,3 +68,22 @@ color_pointer: #ff0055
 # color_spinner: 
 # color_header: 
 
+# Reference to the color keys
+# fg         Text
+# bg         Background
+# preview_fg Preview window text
+# preview_bg Preview window background
+# hl         Highlighted substrings
+# fg_plus    Text (current line)
+# bg_plus    Background (current line)
+# gutter     Gutter on the left (defaults to bg+)
+# hl_plus    Highlighted substrings (current line)
+# query      Query string
+# disabled   Query string when search is disabled
+# info       Info line (match counters)
+# border     Border around the window (--border and --preview)
+# prompt     Prompt
+# pointer    Pointer to the current line
+# marker     Multi-select marker
+# spinner    Streaming input indicator
+# header     Header
