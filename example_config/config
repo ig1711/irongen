@@ -1,0 +1,70 @@
+# $XDG_CONFIG_HOME/irongen/config
+
+# lines starting with a '#' are treated as comments. Inline commends are not supported.
+
+
+# border value can be one of rounded, sharp, horizontal, vertical, top, bottom, left, right, none
+
+border: rounded
+
+
+# Comma-separated expression for margins and paddings
+# TRBL     Same margin/padding for top, right, bottom, and left
+# TB,RL    Vertical, horizontal margin/padding
+# T,RL,B   Top, horizontal, bottom margin/padding
+# T,R,B,L  Top, right, bottom, left margin/padding
+# Each part can be given in absolute number or in percentage relative to the terminal size with % suffix.
+
+padding: 1
+# padding: 5%
+# padding: 2,4
+# padding: 8%,6%,5%,6%
+
+margin: 10,20
+# margin: 10% 
+# margin: 5%, 10%
+# margin: 8,10,15,20
+
+
+# All the color keys can have the following values
+# -1        Default terminal foreground/background color (or the original color of the text)
+# 
+#  0        black
+#  1        red
+#  2        green
+#  3        yellow
+#  4        blue
+#  5        magenta
+#  6        cyan
+#  7        white
+#  8        bright-black (gray | grey)
+#  9        bright-red
+# 10        bright-green
+# 11        bright-yellow
+# 12        bright-blue
+# 13        bright-magenta
+# 14        bright-cyan
+# 15        bright-white
+# 16 ~ 255  ANSI 256 colors
+# #rrggbb   24-bit colors
+
+color_fg: #636363
+# color_bg:
+# color_preview_fg: 
+# color_preview_bg: 
+color_hl: #cccccc 
+# color_fg_plus: 
+color_bg_plus: -1
+color_gutter: -1
+color_hl_plus: #ff0055
+color_query: #00ff6e
+# color_disabled: 
+# color_info: 
+# color_border: 
+# color_prompt: #00ff6e
+color_prompt: 0
+color_pointer: #ff0055
+# color_marker: 
+# color_spinner: 
+# color_header: 
+
