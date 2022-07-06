@@ -6,18 +6,21 @@ Searches `XDG_DATA_DIRS/applications` and `XDG_DATA_HOME/applications` and lets 
 
 Install rust and cargo then use the command
 
-## Configuration
-
-Create a directory called `irongen` in your `XDG_CONFIG_HOME` direcotory (default `$HOME/.config`)
-Create a file named `config` and put your config there
-Check [example config](/example_config/config) for details
-
-
 ```sh
 cargo install --git https://github.com/ig1711/irongen.git
 ```
 
 This will install `irongen` in `$CAGRO_HOME/bin` (by default `$HOME/.cargo/bin`). Include this installtion directory in your `$PATH`
+
+
+## Configuration
+
+Create a directory called `irongen` in your `XDG_CONFIG_HOME` direcotory (default `$HOME/.config`)
+<br>
+Create a file named `config` and put your config there
+<br>
+Check [example config](/example_config/config) for details
+
 
 ## Usage
 
