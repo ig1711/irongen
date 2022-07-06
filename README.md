@@ -1,10 +1,17 @@
 # irongen
 
-Searches `XDG_DATA_DIRS/aaplications` and `XDG_DATA_HOME/applications` and lets user pick one using `fzf`
+Searches `XDG_DATA_DIRS/applications` and `XDG_DATA_HOME/applications` and lets user pick one using `fzf`
 
 ## Installation
 
 Install rust and cargo then use the command
+
+## Configuration
+
+Create a directory called `irongen` in your `XDG_CONFIG_HOME` direcotory (default `$HOME/.config`)
+Create a file named `config` and put your config there
+Check [example config](/example_config/config) for details
+
 
 ```sh
 cargo install --git https://github.com/ig1711/irongen.git
