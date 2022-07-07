@@ -1,6 +1,9 @@
 # irongen
 
 Searches `XDG_DATA_DIRS/applications` and `XDG_DATA_HOME/applications` and lets user pick one using `fzf`
+<br>
+<br>
+![Irongen](https://cdn.discordapp.com/attachments/793480482977218631/994503168283123763/smhs3.gif "Irongen")
 
 ## Installation
 
