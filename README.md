@@ -63,7 +63,7 @@ bind=SUPER,D,exec,foot -w 1366x768 -a floating-term $HOME/runfzf.sh
 
 ```sh
 #!/bin/bash
-exec swaymsg -q exec $(irongen)
+exec swaymsg -q -- exec $(irongen)
 ```
 
 - Edit the `sway/config` file to include these
