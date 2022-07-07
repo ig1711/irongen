@@ -130,11 +130,14 @@ pub fn run_fzf(apps: Vec<App>) -> String {
         .split('\0')
         .collect::<Vec<_>>();
 
-    fzf_return_values[fzf_return_values.len() - 1]
+    let exec_str_iter = fzf_return_values[fzf_return_values.len() - 1]
         .lines()
         .next()
         .exit_on_err(130, "Cancelled")
-        .to_owned()
+        .split_inclusive(' ')
+        .filter(|a| !a.contains('%'));
+
+    format!("'{}'", exec_str_iter.collect::<String>().trim())
 }
 
 struct Config {
