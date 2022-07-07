@@ -21,10 +21,12 @@ This will install `irongen` in `$CAGRO_HOME/bin` (by default `$HOME/.cargo/bin`)
 
 ## Configuration
 
-Create a directory called `irongen` in your `XDG_CONFIG_HOME` direcotory (default `$HOME/.config`)
-<br>
-Create a file named `config` and put your config there
-<br>
+- Create a directory called `irongen` in your `XDG_CONFIG_HOME` direcotory (default `$HOME/.config`)
+
+- Create a file named `config` inside that `irongen` directory
+
+- Put your configuration in the `config` file
+
 Check [example config](/example_config/config) for details
 
 
