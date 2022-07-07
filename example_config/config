@@ -1,6 +1,6 @@
 # $XDG_CONFIG_HOME/irongen/config
 
-# lines starting with a '#' are treated as comments. Inline commends are not supported.
+# lines starting with a '#' are treated as comments. Inline comments are not supported.
 
 
 # border value can be one of rounded, sharp, horizontal, vertical, top, bottom, left, right, none
