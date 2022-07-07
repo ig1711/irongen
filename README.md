@@ -2,8 +2,11 @@
 
 Searches `XDG_DATA_DIRS/applications` and `XDG_DATA_HOME/applications` and lets user pick one using `fzf`
 <br>
-<br>
-![Irongen](https://cdn.discordapp.com/attachments/793480482977218631/994503168283123763/smhs3.gif "Irongen")
+
+
+https://user-images.githubusercontent.com/73212588/177724043-17c0f91d-0667-47f5-bc27-ca9c519925cf.mp4
+
+
 
 ## Installation
 
